@@ -1,8 +1,6 @@
 
 import axios from 'axios'
 import {useState} from 'react'
-
-
 function App() {
   const [state,setState]=useState([])
   return (
