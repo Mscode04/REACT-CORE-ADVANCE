@@ -1,5 +1,4 @@
 import React,{useState,useEffect} from 'react'
-
 function Counter() {
   const [count1,setAdd]=useState(0)
   const [count2,setAdd2]=useState(0)
@@ -11,7 +10,6 @@ function Counter() {
       console.log("Clean"+count1,count2)
     }
   },[count1,count2])
-  
   return (
     <div>
       <button onClick={()=>setAdd(count1+1)}>Add</button>
@@ -21,5 +19,4 @@ function Counter() {
     </div>
   )
 }
-
 export default Counter
