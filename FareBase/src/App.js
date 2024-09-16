@@ -1,10 +1,6 @@
 import firebase from'./FireBase/Config'
-
-
 function App() {
-  
   return (
-    // Data JSX
     <div className="App">
       <button onClick={() => {
         firebase.firestore().collection('Products').get().then(snapshort=>{
