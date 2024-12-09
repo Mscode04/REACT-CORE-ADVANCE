@@ -1,0 +1,59 @@
+.modalStyle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContentStyle {
+    background-color: #AA4465;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.App{
+    background: linear-gradient(to right, #AA4465, #861657);
+    width: 100dvw;
+    height: 100vh;
+    margin: -10px;
+    margin-top: -24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border:#240f16 solid 3px;
+    box-shadow: gainsboro 0px 0px 10px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.box h1{
+    color: aliceblue;
+}
+.box button{
+    background-color:#AA4465;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    border:   solid 2px;
+    border-radius: 10px;
+}
+.modal-content button{
+    background-color:#ffdd00;
+    color: #fff;
+    width: 60px;
+    height: 35px;
+    border: #ca6f9e solid 2px;
+    border-radius: 10px;
+}
