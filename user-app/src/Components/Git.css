@@ -1,0 +1,48 @@
+.app {
+    text-align: center;
+    background-color: #007bff;
+    padding: 20px;
+    color: white;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  a{
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .user-card {
+    background: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+  }
+  
+  .user-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .username {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .view-profile {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-profile:hover {
+    background-color: #0056b3;
+  }
+  

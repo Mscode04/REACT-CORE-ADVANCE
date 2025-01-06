@@ -1,0 +1,41 @@
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  .row{
+    display: flex;
+    justify-content: space-around;
+  }
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+.con-pro{
+    border-bottom: 1px solid orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.btn-vt{
+    color: azure;
+    background-color:#af1dbd ;
+    border-radius: 30PX;
+}
+.con-pro{
+    width: 100%;
+}
+  .card-text {
+    color: #6c757d;
+  }
+  
+  .social-icons .btn {
+    border-radius: 20px;
+  }
+  

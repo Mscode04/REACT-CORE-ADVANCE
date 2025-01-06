@@ -1,0 +1,105 @@
+.app-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .form-container {
+    width: 40%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    text-align: center;
+    color: #ff5722;
+    margin-bottom: 20px;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .password-field {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .eye-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  .register-btn {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-text {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .strength-indicator {
+    margin-top: 20px;
+  }
+  
+  .strength-indicator p {
+    font-weight: bold;
+  }
+  
+  .strength-indicator ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .strength-indicator li {
+    margin: 5px 0;
+  }
+  
+  .valid {
+    color: green;
+  }
+  
+  .invalid {
+    color: red;
+  }
+  
+  .image-container {
+    width: 40%;
+    text-align: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .image-container img{
+    height: 550px;
+  }
